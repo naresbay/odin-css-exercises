@@ -1,0 +1,33 @@
+.container .text {
+  background-color: yellow;
+  color: red;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* 
+1. Below is the same descendant combinator but little bit adventurous hehe :D
+
+2. They will target the exact element with the first declaration above (❁´◡`❁)
+*/
+
+/* div p {
+  background-color: blue;
+  color: red;
+  font-size: 20px;
+  text-align: center;
+} */
+
+/* .container p {
+  background-color: pink;
+  color: red;
+  font-size: 20px;
+  text-align: center;
+} */
+
+/* div .text {
+  background-color: green;
+  color: red;
+  font-size: 20px;
+  text-align: center;
+} */
