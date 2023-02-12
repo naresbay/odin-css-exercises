@@ -18,16 +18,19 @@ body {
   font-weight: 800;
 }
 
-.confirm {
-  background: green;
+.button {
+  font-size: 20px;
+}
+
+.button.confirm {
+  background-color: green;
   color: white;
   font-weight: bold;
 }
 
-.button {
+.button.cancel {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  font-size: 20px;
 }
 
 .child {
