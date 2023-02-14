@@ -7,21 +7,32 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 10px; /* to make white looking border look like (as a container) */
 }
 
 .title {
   background: #e3f4ff;
+  font-size: 20px;
+  padding: 10px;
+  margin: 0px auto 10px; /* i set margin top to 0 because the 10px is already represented by 10px of container's padding */
 }
 
 .content {
   background: #e3f4ff;
+  padding: 20px 10px;
+  margin-bottom: 10px;
 }
 
 .button-container {
   background: #e3f4ff;
+  padding: 10px;
+  text-align: center;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  margin: 0px auto; /* i set margin left right to auto so that the button will move to center of its container */
+  padding: 10px 20px; /* padding in button element to add space inside the button */
 }
