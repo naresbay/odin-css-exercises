@@ -40,7 +40,7 @@ input {
 body {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; sudah difix pakai .content (flex & justify content) ternyata perlu flex untuk mendorong item lain tetap stay, sedangkan item yg ada flex nya dia bisa grow */
 }
 
 .header,
@@ -67,9 +67,11 @@ a {
 }
 
 .content {
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 button {
